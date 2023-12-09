@@ -1,0 +1,261 @@
+/* Front page or Homepage*/
+
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+    font-family: Kalnia;
+}
+
+body{
+    background-position: 100%;
+    background-color: #D0A9F5;
+}
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-family: Staatliches;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #FA58AC;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 1000;
+    
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #FA58AC;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    width: 100%;
+    
+}
+.header h1{
+    font-size: 90px;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 45px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+.job p{
+    font-size: 30px;
+    margin-top: 95px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #FA58AC;
+    font-weight:bolder;
+}
+/* ABOUT ME*/ 
+h2 {
+    font-size: 50px;
+    /*color: #ECCEF5;*/
+    margin-left: 45%;
+    margin-top: 550px;
+    font-family: Staatliches;
+    color: #FA58AC;
+}
+ .about-me p{
+    margin-top: 60px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-weight: bolder;
+    float: left;
+ }
+.me {
+    margin: 20px;
+}
+
+/*.content{
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.content h3 {
+    margin: 20px auto;
+    font-weight: 90;
+    line-height: 70px;
+    font-size: 55px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+   
+}
+
+.content button{
+    font-size: 15px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #6ebdb6;
+    background-color: #F8B4E0;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+
+/* ABOUT ME*/ 
+
+/*.projects h2 {
+    font-size: 40px;
+    color: black;
+    margin-left: 45%;
+}
+.project-container {
+    display: flex;
+    justify-content: space-between;
+}
+.project {
+    flex: 1; 
+}  
+
+h2{
+    font-size: 40px;
+    color: black;
+    margin-left: 45%
+}
+.animated-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.animated-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+.animated-menu{
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.animated-menu:hover{
+ transform: scale(1.1);
+}
+
+.link {
+	padding: 10px;
+}
+
+.container{
+	width: 100%;
+}
+
+
+@keyframes slide-in-anim {
+	20% {
+		opacity: 0;
+	}
+	60% {
+		transform: translateX(-45%);
+	}
+	75% {
+		transform: translateX(-52%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(-50%);
+	}
+} */
+
+/* .slide-effect {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slideUp {
+    position: relative;
+    font-family: tahoma;
+    font-size: 25px;
+    opacity:0;
+  }
+  
+  .slideUp {
+    top:40px;
+    left:10px;
+    animation: slideUp ease .5s forwards 1.2s;
+  }
+  
+  
+  @keyframes slideUp {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-40px);opacity:1;}
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .slide-effect, .slideUp {
+      font-size: 15px;
+    }
+  }*/
+  
+  .footer {
+    background-color: #4D5C33;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
