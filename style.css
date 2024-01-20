@@ -5,6 +5,7 @@
     padding: 0;  
     box-sizing: border-box;
     font-family: Kalnia;
+    font-weight: bolder;
 }
 
 body{
@@ -74,7 +75,7 @@ body{
 h2 {
     font-size: 50px;
     /*color: #ECCEF5;*/
-    margin-left: 45%;
+    margin-left: 20%;
     margin-top: 550px;
     font-family: Staatliches;
     color: #FA58AC;
@@ -91,6 +92,7 @@ h2 {
 .me {
     margin: 20px;
 }
+
 
 /*.content{
     width: 100%;
@@ -259,3 +261,15 @@ h2{
     padding: 20px;
     text-align: center;
 }
+
+/* try to find a way to make the space smaller*/
+.column {
+    flex: 15%;
+    min-width: 50px;
+    padding: 30px;
+    float: left;
+    width: 33%;
+    height: 50%;
+    text-align: center;
+   
+    }
