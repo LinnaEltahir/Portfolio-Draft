@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: Kalnia;
     font-weight: bolder;
+    color: black;
 }
 
 body{
@@ -80,18 +81,24 @@ h2 {
     font-family: Staatliches;
     color: #FA58AC;
 }
- .about-me p{
-    margin-top: 60px;
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    text-align: center;
-    font-weight: bolder;
+.column { /*figure out how to child thois with the hjtml*/
+    
+    min-width: 50px;
+    padding: 50px;
     float: left;
- }
-.me {
-    margin: 20px;
-}
+    width: 33%;
+    height: 100%;
+    flex: 30%;
+    text-align: center;
+    }
+
+    .about {
+        margin-top: 60px;
+        font-size: 30px;
+        position: absolute;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+     }
 
 
 /*.content{
@@ -254,22 +261,14 @@ h2{
       font-size: 15px;
     }
   }*/
-  
-  .footer {
-    background-color: #4D5C33;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
 
-/* try to find a way to make the space smaller*/
-.column {
-    flex: 15%;
-    min-width: 50px;
-    padding: 30px;
-    float: left;
-    width: 33%;
-    height: 50%;
-    text-align: center;
-   
-    }
+
+
+/* try to find a way to make the space smaller dummy*/
+
+     .footer {
+        background-color: #4D5C33;
+        color: white;
+        padding: 20px;
+        text-align: center;
+     }
