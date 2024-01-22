@@ -12,6 +12,9 @@
 body{
     background-position: 100%;
     background-color: #D0A9F5;
+    display: flex;
+      flex-direction: column;
+      min-height: 100vh; 
 }
 .navbar{
     width: 95%;
@@ -93,12 +96,15 @@ h2 {
     }
 
     .about {
-        margin-top: 60px;
         font-size: 30px;
-        position: absolute;
-        text-align: center;
         font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+      padding: 1px;
+      font-size: large;
      }
+     .icon {
+        cursor: pointer;
+      }
 
 
 /*.content{
@@ -269,6 +275,6 @@ h2{
      .footer {
         background-color: #4D5C33;
         color: white;
-        padding: 20px;
         text-align: center;
+        padding: 10px;
      }
