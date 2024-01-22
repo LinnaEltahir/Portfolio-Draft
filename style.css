@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: Kalnia;
     font-weight: bolder;
-    color: black;
+    color: #302534;
 }
 
 body{
@@ -30,21 +30,21 @@ body{
     display: inline-block;
     margin: 0 20px;
     position: relative;
-    font-family: Staatliches;
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #FA58AC;
+    color: #302534;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 1000;
-    
+    font-family: 'Abril Fatface', cursive;
 }
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 100%;
-    background: #FA58AC;
+    /*background: #FA58AC;*/
+    background: black;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -61,7 +61,6 @@ body{
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: white;
     margin: 10px;
 }
 .job p{
@@ -72,17 +71,9 @@ body{
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #FA58AC;
     font-weight:bolder;
-}
-/* ABOUT ME*/ 
-h2 {
-    font-size: 50px;
-    /*color: #ECCEF5;*/
-    margin-left: 20%;
-    margin-top: 550px;
-    font-family: Staatliches;
-    color: #FA58AC;
+    font-family: 'Abril Fatface', cursive;
+    /*color: #FA58AC;*/
 }
 .column { /*figure out how to child thois with the hjtml*/
     
@@ -94,17 +85,34 @@ h2 {
     flex: 30%;
     text-align: center;
     }
-
+/* ABOUT ME*/ 
+h2 {
+    font-size: 50px;
+    /*color: #ECCEF5;*/
+    margin-top: 100px; 
+    text-align: center;
+}
+ /*try to change the font of this paragraph*/
     .about {
-        font-size: 30px;
-        font-family: 'Courier New', Courier, monospace;
-        text-align: center;
-      padding: 1px;
-      font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 1px;
+    font-size: large;
+    font-weight: bolder;
+    line-height: 1.6;
      }
+
      .icon {
         cursor: pointer;
       }
+      #socials-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 25rem;
+        gap: 2rem;
+      }
+      
 
 
 /*.content{
