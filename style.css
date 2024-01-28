@@ -126,6 +126,7 @@ h2 {
     font-size: large;
     font-weight: bolder;
     line-height: 1.6;
+   
      }
 
      /*tech stack*/
@@ -138,10 +139,67 @@ h2 {
         flex: 30%;
         text-align: center;
         }
-    
-        .footer {
+    /* Contact us*/
+    /*try fix issue with the menu and the contact page*/
+     .contact-form{
+        width: 85%;
+        max-width: 600px;
+        background: #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 30px 40px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;
+        border-bottom: 0 0 20px #000000b3;
+        font-weight: bolder;
+     }
+
+     .contact-form h2{
+        margin-top: 0;
+        font-weight: 200;
+        
+     }
+
+     .txtb{
+        border: 1px solid gray;
+        padding: 12px 18px;
+        margin: 8px 0;
+        border-radius: 8px;
+     }
+     .txtb label{
+        display: block;
+        text-align: left;
+        color: #333;
+        text-transform: uppercase;
+        font-size: 14px;
+         }
+
+     .txtb input, .txtb textarea{
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        font-size: 18px;
+        margin-top: 6px;
+     }
+
+     .btn{
+        display: inline-block;
+        background: #9b59b6;
+        padding: 14px 0;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-top: 8px;
+        width: 100%;
+     }
+     .footer {
         background-color: #4D5C33;
         color: white;
         text-align: center;
         padding: 10px;
      }
+     
